@@ -6,9 +6,10 @@
 
 <script>
 export default {
+  props: ["msg"],
   data () {
     return {
-      msg: 'Made with <3 by Arne'
+
     }
   }
 }

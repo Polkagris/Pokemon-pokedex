@@ -9,10 +9,10 @@
 <script>
 
 export default {
+  props: ["title", "iconURL"],
   data () {
     return {
-      title: 'Pokemon',
-      iconURL: 'https://cdn.pixabay.com/photo/2016/07/23/13/18/pokemon-1536849_960_720.png'
+
     }
   }
 }
